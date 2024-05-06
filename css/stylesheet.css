@@ -1,6 +1,4 @@
-*{
-    box-sizing: border-box;
-}
+
 body{
     background-color: grey;
     margin: 0px;
@@ -12,22 +10,38 @@ header{
     padding: 1%;
     background-color: rgb(88, 88, 169);
     color: #fff;
-    text-align: left;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
+    height: 50px;
 }
 
 div{
     margin: 40px;
     background-color: rgb(116, 88, 116);
     height: 300px;
-    border: 5px solid blue;
+    border: 5px solid rgb(160, 180, 207);
     padding: 10px;
 }
-.header-list{
-    display: inline;
-    list-style-type: none;
+
+.container-title{
+    width: 450px;
+    display: flex;
+    flex-direction:row ;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.content{
+    display: inline-block;
+    width: 400px;
+}
+
+#header-li{
+    display: flex;
+    flex-direction:row-reverse ;
 }
 
 .flex{
@@ -39,6 +53,7 @@ li{
     display: inline;
     list-style-type: none;
     font-size: 20px;
+    text-align: left;
 }
 
 li a{
@@ -61,15 +76,13 @@ h1{
 
 h2{
     padding-left: 100px;
-    font-size: 27px;
+    font-size: 35px;
+    color: #fff;}
+
+p{
+    font-size: 20px;
 }
 
-.section-tittle{
 
-}
-
-#sections{
-
-}
 
 

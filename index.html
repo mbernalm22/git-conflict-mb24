@@ -3,23 +3,51 @@
     <head>
         <title>Portfolio</title>
         <meta>
-        <link type="text/css" rel="stylesheet" href="./css/stylesheet.css" />
+        <link type="text/css" rel="stylesheet" href="./css/stylesheet.css"/>
 
     </head>
     <body>
-        <header>
+        <header class="flex">
             <h1>Personal Portfolio</h1>
+            <ul id="header-li">
+                <li><a href="https://puppies.com/">About Me</a></li>
+                <li id="header-li"><a href="https://puppies.com/">Work</a></li>
+                <li><a href="https://puppies.com/">Contact</a></li>
+                <li id="header-li"><a href="https://puppies.com/">Resume</a></li>
+            </ul>
         </header>
     <main>
-        <section>
-            <h2>About Me</h2>
-            <p>This whole paragraph is all about me, me, me!!!</p>
-        </section>
-        <section>
-            <div>
-
+        <section class="container">
+            <div class="container-title">
+                <h2>About Me</h2>
+            </div>
+            <div class="content">
+                <p id="sections"> I want something to eat</p>
             </div>
         </section>
+
+        <section class="container">    
+            <div class="container-title">
+                <h2>Work</h2>
+            </div>
+            <div class="content">
+                <p id="sections"> Look at allllll the things i've done. WOWW</p>
+            </div>
+        </section>
+        <section class="container">
+            <div class="container-title">
+                <h2>Contact Me</h2>
+            </div>
+            <div>
+                <ul>
+                    <li>Phone</li>
+                    <li>Email</li>
+                    <li>Github</li>
+                    <li>Spotify</li>
+                </ul>
+            </div>
+        </section>
+
     </main>
     </body>
 </html>
