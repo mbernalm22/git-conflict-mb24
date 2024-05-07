@@ -1,24 +1,32 @@
 
+*{
+
+}
+
 body{
     background-color: grey;
     margin: 0px;
     padding: 10px;
+    width: 100%;
 
 }
 
 header{
     padding: 1%;
+    width: 100%;
     background-color: rgb(88, 88, 169);
     color: #fff;
     align-items: center;
     height: 50px;
 }
 
+section{
+    width: 100%;
+}
+
 div{
     margin: 40px;
-    background-color: rgb(116, 88, 116);
     height: 300px;
-    border: 5px solid rgb(160, 180, 207);
     padding: 10px;
 }
 
@@ -27,16 +35,33 @@ div{
     display: flex;
     flex-direction:row ;
     align-items: center;
+    
 }
 
+
+
 .container{
+    width: 99%;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    border: 5px dashed white;
+}
+
+img{
+    padding: 20px;
+}
+.img-container{
+    width: 99%;
     display: flex;
     flex-direction: row;
 }
 
 .content{
     display: inline-block;
-    width: 400px;
+    width: 100%;
+    
+
 }
 
 #header-li{
@@ -83,6 +108,15 @@ p{
     font-size: 20px;
 }
 
+.space-img{
+    width: 400px;
+    height: 300px;
+}
+
+.guy-meme{
+    width: 400px;
+    height: 300px;
+}
 
 
 
