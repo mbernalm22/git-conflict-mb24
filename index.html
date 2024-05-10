@@ -10,20 +10,23 @@
         <header class="flex">
             <h1>Personal Portfolio</h1>
             <ul id="header-li">
-                <li><a href="https://puppies.com/">About Me</a></li>
+                <li><a href="#about-me">About Me</a></li>
                 <li id="header-li"><a href="#work">Work</a></li>
                 <li><a href="#contact-info">Contact</a></li>
                 <li id="header-li"><a href="https://puppies.com/">Resume</a></li>
             </ul>
         </header>
     <main>
-        <section class="container">
+        <section id="about-me" class="container">
             <div class="container-title">
                 <h2>About Me</h2>
             </div>
-            <div class="content">
+            <div>
                 <img id="my-img" src="./css/profile-me.jpg" alt="Mariana out on a hike"/>
-                <p> I want something to eat</p>
+            </div>
+            <div>
+                <p> I am a 22 year old working student who loves the outdoors. I am happy either walking miles through a trail or swinging on my hammock in-between trees reading books. I am the only daughter of 5, dividing both older and younger brothers in two as I am the middle.
+                    I strive to become a Web Developer so that I can further my career options, growing with the things I learn along the way. </p>
             </div>
         </section>
 
@@ -31,29 +34,40 @@
         <div class="container-title">    
                 <h2>Projects</h2>
         </div>
-        
-        <div class="polaroid">
-                <img  id="project-img" alt="Austronaut on the moon with American flag and space shuttle behind him" src="https://www.jacksonville.com/gcdn/authoring/2017/01/17/NFTU/ghows-LK-733a921e-842d-4ca5-9cc2-8a2a140ed802-b6ee9e89.jpeg?width=660&height=373&fit=crop&format=pjpg&auto=webp"/>
-            <div class="content">
+            
+        </div class="grid">
+        <section>
+            <div class="polaroid">
+                <img  class="landscape" alt="Man holding blueprints of a house in front of an unfinished house." src="https://info.yourpacesetter.com/hubfs/Images/blog-images/2018/2018-01/advantages-building-home-scratch-construction-featured-image.png"/>
+            <div>
                 <p>Project 1</p>
             </div>
         </div>
+        </section>
+       <section>
         <div class="polaroid">
-            <img id="project-img" alt="Guy pointing at a board covered in papers with connecting dots" src="https://i.kym-cdn.com/entries/icons/original/000/022/524/pepe_silvia_meme_banner.jpg"/>
-                <div class="content">        
-                 <p>Project 2</p>
+                <img  class="project-img" alt="Austronaut on the moon with American flag and space shuttle behind him" src="https://www.jacksonville.com/gcdn/authoring/2017/01/17/NFTU/ghows-LK-733a921e-842d-4ca5-9cc2-8a2a140ed802-b6ee9e89.jpeg?width=660&height=373&fit=crop&format=pjpg&auto=webp"/>
+            <div>
+                <p>Project 2</p>
+            </div>
         </div>
+        <div class="polaroid">
+            <img class="project-img" alt="Guy pointing at a board covered in papers with connecting dots" src="https://i.kym-cdn.com/entries/icons/original/000/022/524/pepe_silvia_meme_banner.jpg"/>
+                <div>        
+                 <p>Project 3</p>
+        </div>
+        </section> 
     </section>
         <div class="container">
             <section id="contact-info" class="container-title">
                 <h2>Contact Me</h2>
             </section>
-            <section class="content">
-                <ul>
-                    <li>Phone</li>
-                    <li>Email</li>
-                    <li>Github</li>
-                    <li>Spotify</li>
+            <section >
+                <ul >
+                    <li id="socials">Phone</li>
+                    <li id="socials">Email</li>
+                    <li id="socials">Github</li>
+                    <li id="socials">Spotify</li>
                 </ul>
             </section>
         </div>

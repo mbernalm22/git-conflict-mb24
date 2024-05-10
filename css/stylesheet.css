@@ -14,11 +14,10 @@ header{
 
 
 .container-title{
-    margin: 50px;
     width: 450px;
     display: flex;
-    flex-direction:row ;
     align-items: center;
+    margin: 40px;
 }
 
 .container{
@@ -38,15 +37,9 @@ header{
     object-fit: contain;
 }
 
-.content{
-    display: inline-block;
-    width: 100%;
-}
-
 #header-li{
     display: flex;
     flex-direction:row ;
-
 }
 
 .flex{
@@ -85,7 +78,8 @@ h2{
     color: #fff;}
 
 p{
-    font-size: 20px;
+    font-size: 30px;
+    padding: 20px;
 }
 
 div.polaroid{
@@ -101,7 +95,8 @@ div.content{
 
 }
 
-#project-img{
+
+.project-img{
     width: 300px;
     height: 200px;
 }
@@ -111,4 +106,20 @@ div.content{
     width: 300px;
     height: 440px;
     margin-top: 20px;
+}
+
+.landscape{
+    width: 600px;    
+    display: block;
+    height: 200px;
+}
+
+.grid{
+    display: grid;
+    display: inline-grid;
+
+   
+}
+#socials{
+    margin-left: 50px;
 }
